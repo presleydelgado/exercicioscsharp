@@ -156,9 +156,11 @@ Console.WriteLine("Digite um número :");
 int numero1 = int.Parse(Console.ReadLine());
 int numero2 = 0;
 
+
 do
 {
-    Console.WriteLine($"Valor = {numero1} X {numero2}");
+    int multi = numero1 * numero2;
+    Console.WriteLine($"Tabuada do = {numero1} X {numero2} = {multi}");
     numero2++;
 
 }while(numero2 <= 10);
