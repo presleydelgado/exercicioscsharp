@@ -86,4 +86,35 @@ Console.WriteLine($"O resultado é {op4}");
 
 */
 
-//exercicio 5 : 
+//exercicio 5 : Faça um programa que mude dois números de posição :
+
+/*
+Console.WriteLine("Digite um valor:");
+float numero1 = float.Parse(Console.ReadLine());
+Console.WriteLine("Digite outro valor:");
+float numero2 = float.Parse(Console.ReadLine());
+Console.WriteLine($"Os números depois de serem trocados foram : \nPrimeiro Valor: {numero2} \nSegundo Valor: {numero1}");
+
+*/
+
+//exercicio 6 : multiplique 3 números :
+try
+{
+    Console.WriteLine("Digite um número a ser multiplicado por outros 2 números:");
+    double num1 = double.Parse(Console.ReadLine());
+    Console.WriteLine("Digite outro valor:");
+    double num2 = double.Parse(Console.ReadLine());
+    Console.WriteLine("Digite um valor final:");
+    double num3 = double.Parse(Console.ReadLine());
+
+    double multi = num1 * num2 * num3;
+
+    Console.WriteLine($"A multiplicação dos três valores apresentados é : {multi}");
+}
+catch
+{
+    Console.WriteLine("Valor digitado é invalido!");
+}
+
+
+

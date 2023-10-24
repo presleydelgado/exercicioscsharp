@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ccc\\source\\repos\\exerciciosc#\\Testes\\Testes.csproj": {}
+    "C:\\Users\\ccc\\source\\repos\\exercicioscsharp\\Testes\\Testes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ccc\\source\\repos\\exerciciosc#\\Testes\\Testes.csproj": {
+    "C:\\Users\\ccc\\source\\repos\\exercicioscsharp\\Testes\\Testes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ccc\\source\\repos\\exerciciosc#\\Testes\\Testes.csproj",
+        "projectUniqueName": "C:\\Users\\ccc\\source\\repos\\exercicioscsharp\\Testes\\Testes.csproj",
         "projectName": "Testes",
-        "projectPath": "C:\\Users\\ccc\\source\\repos\\exerciciosc#\\Testes\\Testes.csproj",
+        "projectPath": "C:\\Users\\ccc\\source\\repos\\exercicioscsharp\\Testes\\Testes.csproj",
         "packagesPath": "C:\\Users\\ccc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ccc\\source\\repos\\exerciciosc#\\Testes\\obj\\",
+        "outputPath": "C:\\Users\\ccc\\source\\repos\\exercicioscsharp\\Testes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

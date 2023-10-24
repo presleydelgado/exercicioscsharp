@@ -12,3 +12,17 @@ C:\Users\ccc\source\repos\Testes\testeexercicio1\obj\Debug\net6.0\refint\testeex
 C:\Users\ccc\source\repos\Testes\testeexercicio1\obj\Debug\net6.0\testeexercicio1.pdb
 C:\Users\ccc\source\repos\Testes\testeexercicio1\obj\Debug\net6.0\testeexercicio1.genruntimeconfig.cache
 C:\Users\ccc\source\repos\Testes\testeexercicio1\obj\Debug\net6.0\ref\testeexercicio1.dll
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\obj\Debug\net6.0\testeexercicio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\obj\Debug\net6.0\testeexercicio1.AssemblyInfoInputs.cache
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\obj\Debug\net6.0\testeexercicio1.AssemblyInfo.cs
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\obj\Debug\net6.0\testeexercicio1.csproj.CoreCompileInputs.cache
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\obj\Debug\net6.0\testeexercicio1.dll
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\obj\Debug\net6.0\refint\testeexercicio1.dll
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\obj\Debug\net6.0\testeexercicio1.pdb
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\bin\Debug\net6.0\testeexercicio1.exe
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\bin\Debug\net6.0\testeexercicio1.deps.json
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\bin\Debug\net6.0\testeexercicio1.runtimeconfig.json
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\bin\Debug\net6.0\testeexercicio1.dll
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\bin\Debug\net6.0\testeexercicio1.pdb
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\obj\Debug\net6.0\testeexercicio1.genruntimeconfig.cache
+C:\Users\ccc\source\repos\exercicioscsharp\testeexercicio1\obj\Debug\net6.0\ref\testeexercicio1.dll
