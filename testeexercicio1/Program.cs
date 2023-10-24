@@ -154,8 +154,14 @@ catch
 
 Console.WriteLine("Digite um número :");
 int numero1 = int.Parse(Console.ReadLine());
-Console.WriteLine("");
+int numero2 = 0;
 
+do
+{
+    Console.WriteLine($"Valor = {numero1} X {numero2}");
+    numero2++;
+
+}while(numero2 <= 10);
 
 
 
