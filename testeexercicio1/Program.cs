@@ -98,8 +98,11 @@ Console.WriteLine($"Os números depois de serem trocados foram : \nPrimeiro Valo
 */
 
 //exercicio 6 : multiplique 3 números :
+
+/*
 try
 {
+    
     Console.WriteLine("Digite um número a ser multiplicado por outros 2 números:");
     double num1 = double.Parse(Console.ReadLine());
     Console.WriteLine("Digite outro valor:");
@@ -115,6 +118,45 @@ catch
 {
     Console.WriteLine("Valor digitado é invalido!");
 }
+*/
+
+//exercicio 7 : Escreva um programa que some , multiplique, subtraia e divida dois valores digitados pelo usuario 
+
+/*
+ * 
+try
+{
+    Console.WriteLine("Digite um valor:");
+    double valor1 = double.Parse(Console.ReadLine());
+    Console.WriteLine("Digite outro valor:");
+    double valor2 = double.Parse(Console.ReadLine());
+
+    double soma = valor1 + valor2;
+    double subtração = valor1 - valor2;
+    double multi = valor1 * valor2;
+    double divisao = valor1 / valor2;
+    double mod = valor1 % valor2;
+
+    Console.WriteLine($"{valor1} + {valor2} = {soma}");
+    Console.WriteLine($"{valor1} - {valor2} = {subtração}");
+    Console.WriteLine($"{valor1} * {valor2} = {multi}");
+    Console.WriteLine($"{valor1} / {valor2} = {divisao}");
+    Console.WriteLine($"{valor1} % {valor2} = {mod}");
+}
+catch
+{
+    Console.WriteLine("O valor digitado não é um número!!!");
+}
+
+*/
+
+//exercicio 8 : Faça um programa que mostre a tabuada do numero digitado
+
+Console.WriteLine("Digite um número :");
+int numero1 = int.Parse(Console.ReadLine());
+Console.WriteLine("");
+
+
 
 
 
