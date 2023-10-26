@@ -228,6 +228,49 @@ Console.WriteLine($"O resultado dos números {numero1} , {numero2} , {numero3}\n
 
 //exercicio 11 : Faça um programa que pegue uma idade e print algo como "Você parece mais velho que (Idade digitada)
 
+/*
+Console.WriteLine("Qual a sua idade ?");
+string idade = Console.ReadLine();
+Console.WriteLine($"Você aparenta ser mais velho que {idade}");
+*/
+
+//exercicio 12 : Escreva um programa que pegue um número e print ele 4 vezes em linha separado por espaços , e dnv mas sem separação.
+//console.write {0}.
+
+Console.WriteLine($"Digite um número");
+
+string numero = Console.ReadLine();
+
+Console.Write($"{numero}");
+Console.Write($" ");
+Console.Write($"{numero}");
+Console.Write($" ");
+Console.Write($"{numero}");
+Console.Write($" ");
+Console.Write($"{numero}");
+Console.WriteLine();
+
+Console.Write($"{numero}");
+Console.Write($"{numero}");
+Console.WriteLine($"{numero}");
+Console.Write($"{numero}");
+Console.WriteLine();
+
+Console.Write($"{numero}");
+Console.Write($" ");
+Console.Write($"{numero}");
+Console.Write($" ");
+Console.Write($"{numero}");
+Console.Write($" ");
+Console.Write($"{numero}");
+Console.WriteLine();
+
+Console.Write($"{numero}");
+Console.Write($"{numero}");
+Console.WriteLine($"{numero}");
+Console.Write($"{numero}");
+Console.WriteLine();
+
 
 
 
