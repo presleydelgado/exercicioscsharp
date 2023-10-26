@@ -171,6 +171,9 @@ do
 
 //exercicio 9 : De a media de 4 números inputados
 
+
+/*
+ * 
 Console.WriteLine("Digite um número:");
 
 float num1 = float.Parse(Console.ReadLine());
@@ -191,6 +194,42 @@ float media = num1 + num2 + num3 + num4 ;
 float mediaresult = media / 4;
 
 Console.WriteLine($"A média dos números {num1} , {num2} , {num3} , {num4} é {mediaresult}");   
+
+*/
+
+//exercicio 10 : Escreva um programa que pegue 3 números (x,y,z) como input e print (x+y).z e x.y + y.z.
+
+/*
+Console.WriteLine("Digite um valor: ");
+
+float numero1 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite outro valor: ");
+
+float numero2 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite mais um valor: ");
+
+float numero3 = float.Parse(Console.ReadLine());
+
+float soma = (numero1 + numero2) * numero3;
+
+//-----------------------------------
+
+float xy = numero1 * numero2;
+float yz = numero2 * numero3;
+
+float resultado = xy + yz;
+
+
+Console.WriteLine($"O resultado dos números {numero1} , {numero2} , {numero3}\n será : ({numero1} + {numero2}) * {numero3} O resultado é : {soma} \nE {numero1} X {numero2} + {numero2} X {numero3} O resultado será : {resultado} ");
+
+*/
+
+//exercicio 11 : Faça um programa que pegue uma idade e print algo como "Você parece mais velho que (Idade digitada)
+
+
+
 
 
 
