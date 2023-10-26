@@ -152,6 +152,8 @@ catch
 
 //exercicio 8 : Faça um programa que mostre a tabuada do numero digitado
 
+/*
+ * 
 Console.WriteLine("Digite um número :");
 int numero1 = int.Parse(Console.ReadLine());
 int numero2 = 0;
@@ -164,6 +166,33 @@ do
     numero2++;
 
 }while(numero2 <= 10);
+
+*/
+
+//exercicio 9 : De a media de 4 números inputados
+
+Console.WriteLine("Digite um número:");
+
+float num1 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite outro número:");
+
+float num2 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite outro número:");
+
+float num3 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite outro número:");
+
+float num4 = float.Parse(Console.ReadLine());
+
+float media = num1 + num2 + num3 + num4 ;
+float mediaresult = media / 4;
+
+Console.WriteLine($"A média dos números {num1} , {num2} , {num3} , {num4} é {mediaresult}");   
+
+
 
 
 
