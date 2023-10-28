@@ -237,24 +237,12 @@ Console.WriteLine($"Você aparenta ser mais velho que {idade}");
 //exercicio 12 : Escreva um programa que pegue um número e print ele 4 vezes em linha separado por espaços , e dnv mas sem separação.
 //console.write {0}.
 
+/*
 Console.WriteLine($"Digite um número");
 
 string numero = Console.ReadLine();
 
-Console.Write($"{numero}");
-Console.Write($" ");
-Console.Write($"{numero}");
-Console.Write($" ");
-Console.Write($"{numero}");
-Console.Write($" ");
-Console.Write($"{numero}");
-Console.WriteLine();
 
-Console.Write($"{numero}");
-Console.Write($"{numero}");
-Console.WriteLine($"{numero}");
-Console.Write($"{numero}");
-Console.WriteLine();
 
 Console.Write($"{numero}");
 Console.Write($" ");
@@ -267,13 +255,71 @@ Console.WriteLine();
 
 Console.Write($"{numero}");
 Console.Write($"{numero}");
-Console.WriteLine($"{numero}");
+Console.Write($"{numero}");
 Console.Write($"{numero}");
 Console.WriteLine();
 
+Console.Write($"{numero}");
+Console.Write($" ");
+Console.Write($"{numero}");
+Console.Write($" ");
+Console.Write($"{numero}");
+Console.Write($" ");
+Console.Write($"{numero}");
+Console.WriteLine();
+
+Console.Write($"{numero}");
+Console.Write($"{numero}");
+Console.Write($"{numero}");
+Console.Write($"{numero}");
+Console.WriteLine();
+
+*/
 
 
+//Forma mais eficaz e limpa de se fazer:
+/*
+Console.WriteLine("{0} {0} {0} {0}", numero);
+Console.WriteLine("{0}{0}{0}{0}", numero);
+Console.WriteLine("{0} {0} {0} {0}", numero);
+Console.WriteLine("{0}{0}{0}{0}", numero);
 
+*/
+
+//exercicio 13 : escreva um programa que pegue um numero e mostre num retangulo de 3 colunas de largura e 5 de altura usando o digito.
+
+/*
+try
+{
+    Console.WriteLine("Digite um valor:");
+
+    int numero = int.Parse(Console.ReadLine());
+
+    Console.WriteLine("{0}{0}{0}", numero);
+    Console.WriteLine("{0} {0}", numero);
+    Console.WriteLine("{0} {0}", numero);
+    Console.WriteLine("{0} {0}", numero);
+    Console.WriteLine("{0}{0}{0}", numero);
+
+}
+catch
+{
+    Console.WriteLine("Valor não valido");
+}
+
+*/
+
+//exercicio 14 : Converta celsius para kevin e fahrenheint
+
+/*
+Console.WriteLine("Digite a temperatura em °C: ");
+double celsius = double.Parse(Console.ReadLine());
+double kelvin = (celsius + 273.15);
+double fah = (celsius * 1.8 + 32);
+
+Console.WriteLine($"O valor de {celsius}°C para Kelvin é {kelvin}°K \n Fahrenheit = {fah}°F");
+
+*/
 
 
 
