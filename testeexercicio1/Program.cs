@@ -336,10 +336,52 @@ Console.WriteLine(aaa.Remove(0,1));
 
 //exercicio 16 : escreva um programa que crie uma nova string de uma dada string onde o primeiro e ultimo caractere mudem de posição.
 
-string a = "w3resource";
-string b = "Python";
-string c = "x";
+/*
+public class exercicio16
+{
+    public static void Main(string[] args)
+    {
+        string a = "w3resource";
+        string b = "Python";
+        string c = "x";
 
+        Console.WriteLine(first_last());
 
-Console.WriteLine($"{a}\n{b}");
+        Console.WriteLine($"{a}\n{b} \n{c}");
+    }
+    public static string first_last(string ustr)
+    {
+        return ustr.Lenght > 1
+            ? ustr.Substring(ustr.Length - 1) + ustr.Substring(1, ustr.Length - 2) + ustr.Substring(0, 1) : ustr;
+    }
+}
 
+*/
+//Essa é a resposta certa do exercicio,eu não consigo fazer isso...
+/*
+using System;
+using System.Collections.Generic;
+
+public class Exercise16
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine(first_last("w3resource"));
+        Console.WriteLine(first_last("Python"));
+        Console.WriteLine(first_last("x"));
+    }
+    public static string first_last(string ustr)
+    {
+        return ustr.Length > 1
+            ? ustr.Substring(ustr.Length - 1) + ustr.Substring(1, ustr.Length - 2) + ustr.Substring(0, 1) : ustr;
+    }
+}
+
+*/
+/*
+string GetWeatherDisplay(double tempInCelsius) => tempInCelsius < 20.0 ? "Cold." : "Perfect!";
+
+Console.WriteLine(GetWeatherDisplay(15));  // output: Cold.
+Console.WriteLine(GetWeatherDisplay(27));  // output: Perfect!
+
+*/
