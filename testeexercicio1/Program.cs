@@ -321,6 +321,16 @@ Console.WriteLine($"O valor de {celsius}°C para Kelvin é {kelvin}°K \n Fahren
 
 */
 
+//exercicio 15 : faça um programa que remova um caractere de uma linha 
+
+string aaa = "w3resource";
+
+Console.WriteLine(aaa.Remove(1,1));
+Console.WriteLine(aaa.Remove(9));
+Console.WriteLine(aaa.Remove(0,1));
+
+//Caralho que coisa mais dificil, a resposta do site não funciona... mas consegui sozinho depois de pesquisar o comando Remove
+
 
 
 
