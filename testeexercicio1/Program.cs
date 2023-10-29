@@ -338,6 +338,8 @@ Console.WriteLine(aaa.Remove(0,1));
 
 string a = "w3resource";
 string b = "Python";
+string c = "x";
+
 
 Console.WriteLine($"{a}\n{b}");
 
